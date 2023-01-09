@@ -1,3 +1,42 @@
+<?php
+
+if(isset($_POST['submit']))
+
+{
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+$sub = $_POST['subject'];
+$message = $_POST['message'];
+
+
+$to = 'dhanush549.d@gmail.com';
+
+$subject = "A Message Sent by: $name, with subject: $sub";
+
+$message = $_POST['message'];
+
+$headers = "From: $email";
+
+
+
+$result = mail($to, $subject, $message, $headers);
+
+if($result)
+{
+	echo "<script>alert('Mail Sent!')</script>";
+}else{
+	echo "<script>alert('Mail not sent, please try again!')</script>";
+}
+
+}
+
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,9 +61,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
+  <body data-spy="scroll" data-target=".site-navbar-target">
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="https://dhanushkrishna.selfmade.one">Dhanush Krishna</a>
@@ -51,7 +88,7 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/image1.png);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/image1.jpg);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -70,7 +107,7 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/image1.png);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/image1.jpg);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -92,7 +129,7 @@
     			<div class="col-md-6 col-lg-5 d-flex">
     				<div class="img-about img d-flex align-items-stretch">
     					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/image2.png);">
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/image2.jpg);">
 	    				</div>
     				</div>
     			</div>
@@ -464,19 +501,19 @@
           <div class="col-md-6 order-md-last d-flex">
             <form method="post" class="bg-light p-4 p-md-5 contact-form">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="text" name = "name" class="form-control" placeholder="Your Name">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+                <input type="text" name = "email" class="form-control" placeholder="Your Email">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="text" name="subject" class="form-control" placeholder="Subject">
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                <input type="submit" name="submit" value="Send Message" class="btn btn-primary py-3 px-5">
               </div>
             </form>
           
