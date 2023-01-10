@@ -1,5 +1,5 @@
 <?php 
     function load_templates($name){
-        include $_SERVER['DOCUMENT_ROOT']."/templates/$name.php";
+        include "/var/www/html/portfolio/templates/$name.php";
     }
 ?>
