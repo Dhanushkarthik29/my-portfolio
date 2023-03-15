@@ -142,7 +142,7 @@ if($result)
 		            	<li class="d-flex"><span>Name:</span> <span>Dhanush Krishna K</span></li>
 		            	<li class="d-flex"><span>Date of birth:</span> <span>August 29, 2002</span></li>
 		            	<li class="d-flex"><span>Address:</span> <span>Kuttukalvalasi, Tenkasi, TamilNadu, India</span></li>
-		            	<li class="d-flex"><span>Zip code:</span> <span>627 803</span></li>
+		            	<li class="d-flex"><span>Postal-code:</span> <span>627 803</span></li>
 		            	<li class="d-flex"><span>Email:</span> <span>dhanush549.d@gmail.com</span></li>
 		            	<li class="d-flex"><span>Phone: </span> <span>+91 6369566421</span></li>
 		            </ul>
@@ -154,7 +154,6 @@ if($result)
 	                <span class="number" data-number="1">1</span>
 	                <span>Currently Doing NEWGEN Project</span>
                 </p>
-                <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
               </div>
 	          </div>
 	        </div>
@@ -185,7 +184,7 @@ if($result)
     					<p class="mt-4">Mathematics-Biology 75%.</p>
     				</div>
     				<div class="resume-wrap ftco-animate">
-    					<span class="date">2020-Ongoing</span>
+    					<span class="date">2020-2024</span>
     					<h2>Bachelor of Engineering (Computer Science) CSE</h2>
     					<span class="position">Anna University, Chennai</span>
     				</div>
@@ -193,7 +192,7 @@ if($result)
     		</div>
     		<div class="row justify-content-center mt-5">
     			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    				<p><a class="btn btn-primary py-4 px-5" href="/resume/myresume.pdf">Download CV</a></p>
     			</div>
     		</div>
     	</div>
@@ -209,7 +208,7 @@ if($result)
         </div>
     		<div class="row">
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<a class="services-1">
 							<span class="icon">
 								<i class="flaticon-web-design"></i>
 							</span>
@@ -219,7 +218,7 @@ if($result)
 						</a>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<a class="services-1">
 							<span class="icon">
 								<i class="flaticon-flasks"></i>
 							</span>
@@ -229,7 +228,7 @@ if($result)
 						</a>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<a class="services-1">
 							<span class="icon">
 								<i class="flaticon-ideas"></i>
 							</span>
@@ -240,7 +239,7 @@ if($result)
 					</div>
 
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<a class="services-1">
 							<span class="icon">
 								<i class="flaticon-analysis"></i>
 							</span>
@@ -250,7 +249,7 @@ if($result)
 						</a>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<a class="services-1">
 							<span class="icon">
 								<i class="flaticon-flasks"></i>
 							</span>
@@ -260,7 +259,7 @@ if($result)
 						</a>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<a class="services-1">
 							<span class="icon">
 								<i class="flaticon-ideas"></i>
 							</span>
@@ -287,8 +286,8 @@ if($result)
 						<div class="progress-wrap ftco-animate">
 							<h3>Java</h3>
 							<div class="progress">
-							 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+							 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
 							    <span>75%</span>
 							  	</div>
 							</div>
@@ -298,9 +297,9 @@ if($result)
 						<div class="progress-wrap ftco-animate">
 							<h3>C</h3>
 							<div class="progress">
-							 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-							    <span>70%</span>
+							 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="50"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
+							    <span>50%</span>
 							  	</div>
 							</div>
 						</div>
@@ -329,7 +328,7 @@ if($result)
 					</div>
 					<div class="col-md-6 animate-box">
 						<div class="progress-wrap ftco-animate">
-							<h3>Linux</h3>
+							<h3>Linux based OS</h3>
 							<div class="progress">
 							 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="85"
 							  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
@@ -357,6 +356,17 @@ if($result)
 							<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
 							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
 							    <span>80%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Databases</h3>
+							<div class="progress">
+							<div class="progress-bar color-6" role="progressbar" aria-valuenow="60"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
+							    <span>60%</span>
 							  	</div>
 							</div>
 						</div>
@@ -443,7 +453,7 @@ if($result)
 				<div class="row justify-content-center">
 					<div class="col-md-7 ftco-animate text-center">
 						<h2>I'm <span>Available</span> for freelancing</h2>
-						<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Hire me</a></p>
+						<p class="mb-0"><a href="https://www.freelancer.com" class="btn btn-primary py-3 px-5">Hire me</a></p>
 					</div>
 				</div>
 			</div>
@@ -465,7 +475,7 @@ if($result)
           			<span class="icon-map-signs"></span>
           		</div>
           		<h3 class="mb-4">Address</h3>
-	            <p>4/728 Mangammal Salai,Near Oxford School,Tenkasi</p>
+	            <p><a href="#">4/728 Mangammal Salai,Near Oxford School,Tenkasi</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -492,7 +502,7 @@ if($result)
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Website</h3>
-	            <p><a href="#">yoursite.com</a></p>
+	            <p><a href="#">dhanushkrishna.selfmade.one</a></p>
 	          </div>
           </div>
         </div>
@@ -556,11 +566,11 @@ if($result)
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Interests</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Cyber Security</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Networking</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Problem Solver</a></li>
+                <li><a href="#interests-section"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
+                <li><a href="#interests-section"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
+                <li><a href="#interests-section"><span class="icon-long-arrow-right mr-2"></span>Cyber Security</a></li>
+                <li><a href="#interests-section"><span class="icon-long-arrow-right mr-2"></span>Networking</a></li>
+                <li><a href="#interests-section"><span class="icon-long-arrow-right mr-2"></span>Problem Solver</a></li>
               </ul>
             </div>
           </div>
@@ -569,9 +579,9 @@ if($result)
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">4/728 Mangammal salai,Near Oxford School,Kutthukalvalasi,tenkasi</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 6369566421</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">dhanush549.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text"> 4/728 Mangammal salai,Near Oxford School,Kutthukalvalasi,tenkasi</span></li>
+	                <li><a><span class="icon icon-phone"></span><span class="text">+91 6369566421</span></a></li>
+	                <li><a><span class="icon icon-envelope"></span><span class="text">dhanush549.d@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
